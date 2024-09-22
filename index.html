@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Games Shop - A sua loja de games</title>
     <link rel="stylesheet" href="./style.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -17,16 +17,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#sobre">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="sobre">
         <div class="container">
             <img class="shop-img"  src="./imagens/loja.jpg" alt="fachada da loja games shop">
             <div>
@@ -48,5 +48,50 @@
             </div>
         </div>
     </section>
+    <section id="contact">
+        <div class="container">
+            <h2>contato</h2>
+            <div class="contact-info">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Nome" required/>
+                        <input type="email" placeholder="Email" required/>
+                        <input type="tel" placeholder="telefone (opcional)"/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-media">
+                        <li>
+                            <a href="#" title="siga-nos no instagram"><img src="./imagens/instagram.png" alt="instagram"></a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" title="siga-nos no facebook"><img src="./imagens/facebook.png" alt="facebook"></a>
+                            
+                        </li>
+                        <li>
+                            <a href="#" title="Visite-nos no nosso canal do youtube"><img src="./imagens/youtube.png" alt="youtube"></a>
+                            
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha ate nós</h3>
+                    <p>Rua Javascript n°124, vila HTML Correntes/PE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games shop - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
